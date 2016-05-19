@@ -9,3 +9,4 @@ build(){
 }
 
 build 'ubuntu14.04'
+build 'fedora'
