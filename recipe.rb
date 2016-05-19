@@ -17,6 +17,7 @@ class Fzy < FPM::Cookery::Recipe
   end
 
   def install
-    make :install, 'DESTDIR' => destdir, 'PREFIX' => '/usr'
+    bin.install 'fzy'
+    man1.install 'fzy.1'
   end
 end
