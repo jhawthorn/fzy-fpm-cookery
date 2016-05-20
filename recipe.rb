@@ -21,5 +21,8 @@ class Fzy < FPM::Cookery::Recipe
   def install
     bin.install 'fzy'
     man1.install 'fzy.1'
+
+    safesystem "strip #{bin}/fzy"
+    safesystem "gzip -9 #{man1}/fzy.1"
   end
 end
