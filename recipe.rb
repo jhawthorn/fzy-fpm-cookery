@@ -10,6 +10,8 @@ class Fzy < FPM::Cookery::Recipe
   maintainer 'John Hawthorn <john.hawthorn@gmail.com>'
   license 'MIT'
 
+  section 'misc'
+
   description 'A better fuzzy finder.'
 
   def build
