@@ -1,10 +1,10 @@
 class Fzy < FPM::Cookery::Recipe
   homepage 'http://github.com/jhawthorn/fzy'
-  source   'https://github.com/jhawthorn/fzy/archive/0.3.tar.gz'
-  md5      '2a0c15d51f68d6f5bd05e8129b651264'
+  source   'https://github.com/jhawthorn/fzy/archive/0.4.tar.gz'
+  md5      'bfb974fc160f34153a01ab7f59551539'
 
   name     'fzy'
-  version  '0.3'
+  version  '0.4'
   revision '1'
 
   maintainer 'John Hawthorn <john.hawthorn@gmail.com>'
